@@ -20,8 +20,6 @@ from typing import Optional
 # Load environment variables for authentication
 load_dotenv()
 
-# test
-
 # Initialize FastAPI app
 app = FastAPI()
 
