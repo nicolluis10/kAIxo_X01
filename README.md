@@ -1,6 +1,6 @@
 # Basque Chatbot with RAG and Embeddings
 
-This repository contains code for building a Basque-speaking chatbot powered by Retrieval-Augmented Generation (RAG) with knowledge from movie subtitles. This chatbot is designed to understand and respond in Basque, enhanced with natural language knowledge from dialogues, leveraging the FastAPI framework for web-based interaction.
+This repository contains code for building a Basque-speaking chatbot powered by Retrieval-Augmented Generation (RAG) with knowledge from movie subtitles. This chatbot is designed to understand and respond in Basque, enhanced with natural language knowledge from dialogues, leveraging the FastAPI framework for web-based interaction. The "embeddings.py" script is for initializing the vector database and creating the embeddings. 
 
 ## Features
 
@@ -8,11 +8,13 @@ This repository contains code for building a Basque-speaking chatbot powered by 
 - Retrieval-Augmented Generation (RAG): Uses a retrieval system for contextually aware responses.
 - Movie Dialogue Database: Enhanced natural language understanding sourced from movie subtitles.
 - FastAPI: Provides a simple HTTP API interface for easy integration.
+- LLMs: Models used in this application are "gpt-4o" and "text-embedding-3-small"
 
 ## Prerequisites
 
 - Python 3.10 or 3.11
 - Poetry: Follow this [Poetry installation tutorial](https://python-poetry.org/docs/#installation) to install Poetry on your system.
+- Dataset from https://zenodo.org/records/8220853
 
 ## Getting Started
 
